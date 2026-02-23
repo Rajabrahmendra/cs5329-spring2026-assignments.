@@ -40,7 +40,7 @@ This guarantees canceled events are never executed.
 
 Runtime Analysis :- 
 
-    The operation that dominates runtime in this scheduler is heap insertion and removal, both of which run in O(log n) time. Scanning a list to find and update or remove an event would require O(n) time per operation, which becomes inefficient as the number of events grows. Lazy updating is acceptable because it avoids expensive heap searches by inserting a new version instead of modifying the old one. Outdated entries are discarded only when they reach the top of the heap, so the cleanup cost is spread across pop operations. This approach keeps the scheduler efficient and scalable in practice.
+The operation that dominates runtime in this scheduler is heap insertion and removal, both of which run in O(log n) time. Scanning a list to find and update or remove an event would require O(n) time per operation, which becomes inefficient as the number of events grows. Lazy updating is acceptable because it avoids expensive heap searches by inserting a new version instead of modifying the old one. Outdated entries are discarded only when they reach the top of the heap, so the cleanup cost is spread across pop operations. This approach keeps the scheduler efficient and scalable in practice.
 
 ---
 
