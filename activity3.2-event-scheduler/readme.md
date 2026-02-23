@@ -38,6 +38,12 @@ This guarantees canceled events are never executed.
 
 ---
 
+Runtime Analysis :- 
+
+    The operation that dominates runtime in this scheduler is heap insertion and removal, both of which run in O(log n) time. Scanning a list to find and update or remove an event would require O(n) time per operation, which becomes inefficient as the number of events grows. Lazy updating is acceptable because it avoids expensive heap searches by inserting a new version instead of modifying the old one. Outdated entries are discarded only when they reach the top of the heap, so the cleanup cost is spread across pop operations. This approach keeps the scheduler efficient and scalable in practice.
+
+---
+
 ## How to Run
 
 ```bash
@@ -62,8 +68,4 @@ Peek after cancel: (0, 106, 2, 'E5', '[UPDATED] E5: 0')
 4. id=E6 priority=2 time=105 version=1 payload=Clinic intake: patient B
 5. id=E1 priority=3 time=100 version=1 payload=Clinic intake: patient A
 
-
-Runtime Analysis :- 
-
-    The operation that dominates runtime in this scheduler is heap insertion and removal, both of which run in O(log n) time. Scanning a list to find and update or remove an event would require O(n) time per operation, which becomes inefficient as the number of events grows. Lazy updating is acceptable because it avoids expensive heap searches by inserting a new version instead of modifying the old one. Outdated entries are discarded only when they reach the top of the heap, so the cleanup cost is spread across pop operations. This approach keeps the scheduler efficient and scalable in practice.
 
