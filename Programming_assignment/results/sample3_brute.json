@@ -1,0 +1,62 @@
+{
+  "strategy_name": "brute",
+  "selected_tasks": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    9
+  ],
+  "total_weight": 60.0,
+  "execution_time_seconds": 0.002102,
+  "utilization_timeline": {
+    "0-2": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "2-4": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "4-5": {
+      "resource_used": 5,
+      "categories": {
+        "io": 1,
+        "network": 1
+      }
+    },
+    "5-6": {
+      "resource_used": 3,
+      "categories": {
+        "network": 1
+      }
+    },
+    "6-7": {
+      "resource_used": 6,
+      "categories": {
+        "network": 1,
+        "io": 1
+      }
+    },
+    "7-9": {
+      "resource_used": 7,
+      "categories": {
+        "io": 1,
+        "compute": 1
+      }
+    },
+    "9-11": {
+      "resource_used": 4,
+      "categories": {
+        "compute": 1
+      }
+    }
+  }
+}

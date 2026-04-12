@@ -1,0 +1,30 @@
+{
+  "resource_capacity": 6,
+  "category_limit": 2,
+  "tasks": [
+    {
+      "id": 0,
+      "start": 1,
+      "end": 4,
+      "weight": 5.0,
+      "resource": 2,
+      "category": "io"
+    },
+    {
+      "id": 1,
+      "start": 1,
+      "end": 4,
+      "weight": 5.0,
+      "resource": 2,
+      "category": "io"
+    },
+    {
+      "id": 2,
+      "start": 1,
+      "end": 4,
+      "weight": 5.0,
+      "resource": 2,
+      "category": "io"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "strategy_name": "greedy1",
+  "selected_tasks": [
+    5,
+    0,
+    1,
+    10,
+    6,
+    3,
+    4,
+    7,
+    9,
+    11,
+    12,
+    14
+  ],
+  "total_weight": 79.5,
+  "execution_time_seconds": 9.5e-05,
+  "utilization_timeline": {
+    "0-1": {
+      "resource_used": 4,
+      "categories": {
+        "network": 1,
+        "compute": 1
+      }
+    },
+    "1-2": {
+      "resource_used": 6,
+      "categories": {
+        "network": 1,
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "2-3": {
+      "resource_used": 8,
+      "categories": {
+        "network": 1,
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "3-4": {
+      "resource_used": 10,
+      "categories": {
+        "compute": 2,
+        "io": 2
+      }
+    },
+    "4-5": {
+      "resource_used": 10,
+      "categories": {
+        "io": 2,
+        "compute": 2
+      }
+    },
+    "5-6": {
+      "resource_used": 8,
+      "categories": {
+        "compute": 2,
+        "io": 1
+      }
+    },
+    "6-8": {
+      "resource_used": 7,
+      "categories": {
+        "compute": 1,
+        "io": 2
+      }
+    },
+    "8-9": {
+      "resource_used": 7,
+      "categories": {
+        "io": 2,
+        "compute": 1
+      }
+    },
+    "9-10": {
+      "resource_used": 9,
+      "categories": {
+        "io": 1,
+        "compute": 1,
+        "network": 1
+      }
+    },
+    "10-12": {
+      "resource_used": 9,
+      "categories": {
+        "compute": 2,
+        "network": 1
+      }
+    },
+    "12-13": {
+      "resource_used": 10,
+      "categories": {
+        "network": 2,
+        "compute": 1
+      }
+    },
+    "13-14": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "network": 1
+      }
+    },
+    "14-16": {
+      "resource_used": 4,
+      "categories": {
+        "network": 1
+      }
+    }
+  }
+}

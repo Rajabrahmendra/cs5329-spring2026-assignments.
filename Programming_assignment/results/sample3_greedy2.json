@@ -1,0 +1,62 @@
+{
+  "strategy_name": "greedy2",
+  "selected_tasks": [
+    8,
+    5,
+    0,
+    2,
+    1,
+    7
+  ],
+  "total_weight": 52.0,
+  "execution_time_seconds": 3.4e-05,
+  "utilization_timeline": {
+    "0-2": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "2-4": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "4-5": {
+      "resource_used": 2,
+      "categories": {
+        "io": 1
+      }
+    },
+    "5-6": {
+      "resource_used": 2,
+      "categories": {
+        "network": 1
+      }
+    },
+    "6-8": {
+      "resource_used": 5,
+      "categories": {
+        "network": 1,
+        "io": 1
+      }
+    },
+    "8-9": {
+      "resource_used": 7,
+      "categories": {
+        "network": 1,
+        "io": 1,
+        "compute": 1
+      }
+    },
+    "9-10": {
+      "resource_used": 2,
+      "categories": {
+        "compute": 1
+      }
+    }
+  }
+}
