@@ -1,0 +1,16 @@
+{
+  "strategy_name": "greedy2",
+  "selected_tasks": [
+    5
+  ],
+  "total_weight": 100.0,
+  "execution_time_seconds": 1.4e-05,
+  "utilization_timeline": {
+    "0-10": {
+      "resource_used": 9,
+      "categories": {
+        "compute": 1
+      }
+    }
+  }
+}

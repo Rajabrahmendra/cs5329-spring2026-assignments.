@@ -1,0 +1,361 @@
+{
+  "strategy_name": "greedy1",
+  "selected_tasks": [
+    95,
+    89,
+    13,
+    82,
+    83,
+    17,
+    77,
+    3,
+    18,
+    31,
+    2,
+    34,
+    64,
+    12,
+    27,
+    81,
+    7,
+    76,
+    5,
+    44,
+    42,
+    88,
+    98,
+    94,
+    47,
+    74,
+    56,
+    43,
+    91,
+    11,
+    65,
+    99,
+    10,
+    52,
+    33,
+    78,
+    1,
+    32,
+    22,
+    80,
+    60,
+    26
+  ],
+  "total_weight": 2430.75,
+  "execution_time_seconds": 0.002195,
+  "utilization_timeline": {
+    "0-2": {
+      "resource_used": 1,
+      "categories": {
+        "compute": 1
+      }
+    },
+    "2-3": {
+      "resource_used": 6,
+      "categories": {
+        "compute": 2
+      }
+    },
+    "3-4": {
+      "resource_used": 11,
+      "categories": {
+        "network": 1,
+        "compute": 2
+      }
+    },
+    "4-9": {
+      "resource_used": 15,
+      "categories": {
+        "network": 2,
+        "compute": 2
+      }
+    },
+    "9-14": {
+      "resource_used": 18,
+      "categories": {
+        "network": 2,
+        "compute": 3
+      }
+    },
+    "14-15": {
+      "resource_used": 19,
+      "categories": {
+        "network": 2,
+        "compute": 3
+      }
+    },
+    "15-18": {
+      "resource_used": 19,
+      "categories": {
+        "compute": 3,
+        "network": 2
+      }
+    },
+    "18-19": {
+      "resource_used": 18,
+      "categories": {
+        "compute": 3,
+        "network": 2
+      }
+    },
+    "19-20": {
+      "resource_used": 17,
+      "categories": {
+        "network": 2,
+        "compute": 3
+      }
+    },
+    "20-23": {
+      "resource_used": 20,
+      "categories": {
+        "network": 3,
+        "compute": 3
+      }
+    },
+    "23-24": {
+      "resource_used": 16,
+      "categories": {
+        "network": 2,
+        "compute": 3
+      }
+    },
+    "24-26": {
+      "resource_used": 17,
+      "categories": {
+        "network": 2,
+        "compute": 3,
+        "io": 1
+      }
+    },
+    "26-27": {
+      "resource_used": 11,
+      "categories": {
+        "compute": 3,
+        "network": 1,
+        "io": 1
+      }
+    },
+    "27-28": {
+      "resource_used": 10,
+      "categories": {
+        "network": 2,
+        "compute": 2,
+        "io": 1
+      }
+    },
+    "28-29": {
+      "resource_used": 7,
+      "categories": {
+        "network": 1,
+        "compute": 2,
+        "io": 1
+      }
+    },
+    "29-30": {
+      "resource_used": 8,
+      "categories": {
+        "io": 2,
+        "network": 1,
+        "compute": 2
+      }
+    },
+    "30-31": {
+      "resource_used": 11,
+      "categories": {
+        "io": 3,
+        "network": 1,
+        "compute": 2
+      }
+    },
+    "31-32": {
+      "resource_used": 20,
+      "categories": {
+        "network": 2,
+        "compute": 3,
+        "io": 2
+      }
+    },
+    "32-34": {
+      "resource_used": 11,
+      "categories": {
+        "compute": 3,
+        "io": 2
+      }
+    },
+    "34-35": {
+      "resource_used": 2,
+      "categories": {
+        "network": 1,
+        "io": 1
+      }
+    },
+    "35-36": {
+      "resource_used": 10,
+      "categories": {
+        "io": 3,
+        "network": 1
+      }
+    },
+    "36-38": {
+      "resource_used": 8,
+      "categories": {
+        "network": 1,
+        "io": 2
+      }
+    },
+    "38-39": {
+      "resource_used": 10,
+      "categories": {
+        "network": 1,
+        "io": 3
+      }
+    },
+    "39-40": {
+      "resource_used": 13,
+      "categories": {
+        "io": 3,
+        "network": 1
+      }
+    },
+    "40-41": {
+      "resource_used": 7,
+      "categories": {
+        "network": 1,
+        "io": 2
+      }
+    },
+    "41-42": {
+      "resource_used": 15,
+      "categories": {
+        "network": 1,
+        "compute": 2,
+        "io": 2
+      }
+    },
+    "42-44": {
+      "resource_used": 19,
+      "categories": {
+        "network": 3,
+        "compute": 2,
+        "io": 2
+      }
+    },
+    "44-45": {
+      "resource_used": 9,
+      "categories": {
+        "network": 2,
+        "io": 2,
+        "compute": 1
+      }
+    },
+    "45-46": {
+      "resource_used": 19,
+      "categories": {
+        "io": 3,
+        "compute": 2,
+        "network": 2
+      }
+    },
+    "46-47": {
+      "resource_used": 20,
+      "categories": {
+        "io": 3,
+        "network": 3,
+        "compute": 1
+      }
+    },
+    "47-48": {
+      "resource_used": 19,
+      "categories": {
+        "io": 2,
+        "network": 3,
+        "compute": 2
+      }
+    },
+    "48-49": {
+      "resource_used": 13,
+      "categories": {
+        "compute": 3,
+        "network": 2,
+        "io": 1
+      }
+    },
+    "49-50": {
+      "resource_used": 11,
+      "categories": {
+        "compute": 2,
+        "network": 2,
+        "io": 1
+      }
+    },
+    "50-51": {
+      "resource_used": 10,
+      "categories": {
+        "network": 3,
+        "compute": 1,
+        "io": 1
+      }
+    },
+    "51-53": {
+      "resource_used": 18,
+      "categories": {
+        "network": 3,
+        "compute": 2,
+        "io": 2
+      }
+    },
+    "53-54": {
+      "resource_used": 5,
+      "categories": {
+        "io": 2
+      }
+    },
+    "54-55": {
+      "resource_used": 11,
+      "categories": {
+        "io": 2,
+        "network": 1
+      }
+    },
+    "55-56": {
+      "resource_used": 13,
+      "categories": {
+        "io": 3,
+        "network": 1
+      }
+    },
+    "56-57": {
+      "resource_used": 13,
+      "categories": {
+        "io": 2,
+        "network": 2
+      }
+    },
+    "57-58": {
+      "resource_used": 19,
+      "categories": {
+        "io": 3,
+        "network": 2,
+        "compute": 1
+      }
+    },
+    "58-59": {
+      "resource_used": 7,
+      "categories": {
+        "io": 1,
+        "network": 1,
+        "compute": 1
+      }
+    },
+    "59-60": {
+      "resource_used": 6,
+      "categories": {
+        "network": 1,
+        "compute": 1
+      }
+    }
+  }
+}

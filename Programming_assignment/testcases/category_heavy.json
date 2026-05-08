@@ -1,0 +1,246 @@
+{
+  "resource_capacity": 10,
+  "category_limit": 1,
+  "tasks": [
+    {
+      "id": 0,
+      "start": 1,
+      "end": 18,
+      "weight": 8.93,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 1,
+      "start": 2,
+      "end": 24,
+      "weight": 86.32,
+      "resource": 4,
+      "category": "compute"
+    },
+    {
+      "id": 2,
+      "start": 18,
+      "end": 20,
+      "weight": 58.31,
+      "resource": 1,
+      "category": "compute"
+    },
+    {
+      "id": 3,
+      "start": 13,
+      "end": 24,
+      "weight": 58.78,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 4,
+      "start": 21,
+      "end": 24,
+      "weight": 24.63,
+      "resource": 4,
+      "category": "compute"
+    },
+    {
+      "id": 5,
+      "start": 20,
+      "end": 23,
+      "weight": 46.27,
+      "resource": 1,
+      "category": "compute"
+    },
+    {
+      "id": 6,
+      "start": 19,
+      "end": 24,
+      "weight": 99.61,
+      "resource": 1,
+      "category": "compute"
+    },
+    {
+      "id": 7,
+      "start": 16,
+      "end": 21,
+      "weight": 14.11,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 8,
+      "start": 11,
+      "end": 16,
+      "weight": 16.62,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 9,
+      "start": 20,
+      "end": 25,
+      "weight": 1.77,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 10,
+      "start": 4,
+      "end": 13,
+      "weight": 12.43,
+      "resource": 1,
+      "category": "compute"
+    },
+    {
+      "id": 11,
+      "start": 4,
+      "end": 13,
+      "weight": 28.89,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 12,
+      "start": 6,
+      "end": 15,
+      "weight": 51.04,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 13,
+      "start": 2,
+      "end": 23,
+      "weight": 42.93,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 14,
+      "start": 10,
+      "end": 23,
+      "weight": 13.95,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 15,
+      "start": 14,
+      "end": 23,
+      "weight": 70.86,
+      "resource": 1,
+      "category": "compute"
+    },
+    {
+      "id": 16,
+      "start": 22,
+      "end": 23,
+      "weight": 55.01,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 17,
+      "start": 4,
+      "end": 18,
+      "weight": 13.62,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 18,
+      "start": 1,
+      "end": 13,
+      "weight": 21.8,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 19,
+      "start": 11,
+      "end": 24,
+      "weight": 56.43,
+      "resource": 4,
+      "category": "network"
+    },
+    {
+      "id": 20,
+      "start": 4,
+      "end": 12,
+      "weight": 86.6,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 21,
+      "start": 5,
+      "end": 16,
+      "weight": 78.46,
+      "resource": 4,
+      "category": "network"
+    },
+    {
+      "id": 22,
+      "start": 7,
+      "end": 16,
+      "weight": 16.76,
+      "resource": 1,
+      "category": "compute"
+    },
+    {
+      "id": 23,
+      "start": 1,
+      "end": 17,
+      "weight": 23.02,
+      "resource": 4,
+      "category": "compute"
+    },
+    {
+      "id": 24,
+      "start": 7,
+      "end": 15,
+      "weight": 3.34,
+      "resource": 2,
+      "category": "compute"
+    },
+    {
+      "id": 25,
+      "start": 8,
+      "end": 11,
+      "weight": 96.72,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 26,
+      "start": 16,
+      "end": 23,
+      "weight": 68.27,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 27,
+      "start": 8,
+      "end": 14,
+      "weight": 58.48,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 28,
+      "start": 19,
+      "end": 23,
+      "weight": 35.22,
+      "resource": 3,
+      "category": "compute"
+    },
+    {
+      "id": 29,
+      "start": 16,
+      "end": 18,
+      "weight": 39.13,
+      "resource": 2,
+      "category": "compute"
+    }
+  ]
+}

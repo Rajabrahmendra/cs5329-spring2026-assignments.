@@ -1,0 +1,17 @@
+{
+  "strategy_name": "brute",
+  "selected_tasks": [
+    0,
+    1
+  ],
+  "total_weight": 10.0,
+  "execution_time_seconds": 1.7e-05,
+  "utilization_timeline": {
+    "1-4": {
+      "resource_used": 4,
+      "categories": {
+        "io": 2
+      }
+    }
+  }
+}
